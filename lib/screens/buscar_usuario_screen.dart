@@ -13,7 +13,7 @@ class _BuscarUsuarioPageState extends State<BuscarUsuarioPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Buscar usuario'),
+        title: const Text('Buscar usuario'),
         centerTitle: true,
         backgroundColor: const Color.fromRGBO(22, 22, 22, 1),
       ),

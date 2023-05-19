@@ -53,7 +53,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               child: ChangeNotifierProvider(
                 create: (_) => LoginFormProvider(),
-                child: LoginFormWidget(),
+                child: const LoginFormWidget(),
               ),
             ),
           ),

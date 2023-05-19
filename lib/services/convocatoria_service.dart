@@ -12,7 +12,7 @@ class ConvocatoriaService extends ChangeNotifier {
   bool isLoading = true;
   bool isSaving = false;
   late Convocatoria selectedConvocatoria;
-  final storage = FlutterSecureStorage();
+  final storage = const FlutterSecureStorage();
 
   ConvocatoriaService() {
     loadConvocatorias();
@@ -46,10 +46,10 @@ class ConvocatoriaService extends ChangeNotifier {
 
     if (convocatoria.id == null) {
       // Es necesario crear
-      await this.createProduct(convocatoria);
+      await createProduct(convocatoria);
     } else {
       // Actualizar
-      await this.updateProduct(convocatoria);
+      await updateProduct(convocatoria);
     }
 
     isSaving = false;

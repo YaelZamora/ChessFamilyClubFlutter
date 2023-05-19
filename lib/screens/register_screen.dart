@@ -51,7 +51,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               child: ChangeNotifierProvider(
                 create: (_) => LoginFormProvider(),
-                child: RegisterForm(),
+                child: const RegisterForm(),
               ),
             ),
           ),
@@ -189,7 +189,7 @@ class RegisterForm extends StatelessWidget {
                               Navigator.pushReplacement(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (_) => HomeScreen(),
+                                  builder: (_) => const HomeScreen(),
                                 ),
                               );
                             } else {

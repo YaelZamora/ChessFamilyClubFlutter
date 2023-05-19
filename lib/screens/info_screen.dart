@@ -62,9 +62,9 @@ class QuienesSomos extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: const [
+      children: [
         Text(
           '¿Quiénes somos?',
           style: TextStyle(
@@ -91,9 +91,9 @@ class NuestraHistoria extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: const [
+      children: [
         Text(
           'Nuestra Historia',
           style: TextStyle(
@@ -120,9 +120,9 @@ class AcercaDeChessFamily extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: const [
+      children: [
         Text(
           'Acerca de Chess Family',
           style: TextStyle(

@@ -1,8 +1,5 @@
-import 'package:chess_family_club/models/convocatoria_model.dart';
-import 'package:chess_family_club/screens/afiliacion_screen.dart';
 import 'package:chess_family_club/screens/info_screen.dart';
 import 'package:chess_family_club/screens/login_screen.dart';
-import 'package:chess_family_club/screens/nueva_convocatoria_screen.dart';
 import 'package:chess_family_club/services/auth_service.dart';
 import 'package:chess_family_club/services/convocatoria_service.dart';
 import 'package:chess_family_club/tabs/tabs.dart';
@@ -29,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final convocatoriaService = Provider.of<ConvocatoriaService>(context);
     final authService = Provider.of<AuthService>(context, listen: false);
-    final snackBar = SnackBar(content: Text('Esperalo muy pronto'));
+    const snackBar = SnackBar(content: Text('Esperalo muy pronto'));
 
     return Scaffold(
       backgroundColor: const Color.fromRGBO(66, 66, 66, 1),

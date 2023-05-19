@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 class AuthService extends ChangeNotifier {
   final String _baseUrl = 'identitytoolkit.googleapis.com';
   final String _firebaseToken = 'AIzaSyBHl9XNj4jbRnddrXH-zTxF9jo2KDp4y5w';
-  final storage = FlutterSecureStorage();
+  final storage = const FlutterSecureStorage();
   late String correo = '';
 
   Future<String?> createUser(String email, String password) async {

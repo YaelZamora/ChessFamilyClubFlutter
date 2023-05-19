@@ -29,7 +29,6 @@ class NuevaConvocatoriaScreen extends StatelessWidget {
 
 class _NuevaConvocatoriaBody extends StatelessWidget {
   const _NuevaConvocatoriaBody({
-    super.key,
     required TextEditingController nombre,
     required TextEditingController lugar,
     required TextEditingController fecha,

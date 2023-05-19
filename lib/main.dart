@@ -1,12 +1,9 @@
 import 'package:chess_family_club/screens/check_auth_screen.dart';
-import 'package:chess_family_club/screens/pantalla_prueba.dart';
-import 'package:chess_family_club/screens/pgn_prueba.dart';
 import 'package:chess_family_club/services/notifications_service.dart';
 import 'package:chess_family_club/services/services.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'screens/login_screen.dart';
 
 void main() => runApp(const AppState());
 
